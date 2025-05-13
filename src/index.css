@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+.bg-img{
+    background-image: url(../src/assets/bg-shadow.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
