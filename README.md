@@ -1,12 +1,55 @@
-# React + Vite
+# 🏏 Cricket Player Selection Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application to build your own virtual cricket team! Manage coins, select players, and subscribe for updates — all from a sleek, user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Description
 
-## Expanding the ESLint configuration
+This application allows users to select their favorite cricket players within a coin-based budget system. It features a clean UI, player management features, and real-time interaction feedback. Ideal for fantasy team simulations or fun learning projects!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Technologies Used
+
+- ⚛️ **React** – For building reusable UI components
+- 💨 **Tailwind CSS** – Utility-first styling for responsiveness and modern design
+- 🔔 **React-Toastify** – For real-time toast notifications
+- 💾 **LocalStorage** – For persisting user data such as login and subscription info
+
+---
+
+## ✨ Key Features
+
+### 1. Player Selection
+- Toggle between **Available** and **Selected** player views.
+- Select players up to a maximum limit (6).
+- Remove players from the selection list.
+
+### 2. Real-time Coin Tracking
+- Users start with a coin balance.
+- Coins are deducted upon player selection.
+- Bonus coins can be added with a button.
+
+### 3. Newsletter Subscription
+- Subscribe with or without logging in.
+- Login and subscription data stored in LocalStorage.
+
+---
+
+## 🧑‍💻 Usage Instructions
+
+### 📌 Navbar
+- Displays the current coin balance.
+- Includes a "Add Coins" button.
+
+### 📌 Player Selection Panel
+- Click **Available** to view all players.
+- Select players by clicking the selection button.
+- View selected players under the **Selected** tab.
+- Remove a player from the selected list if needed.
+
+### 📌 Newsletter Section
+- Enter email and optionally log in.
+- Subscriptions are remembered using LocalStorage.
+
