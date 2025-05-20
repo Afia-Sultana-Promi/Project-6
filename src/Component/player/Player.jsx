@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import { CgProfile } from 'react-icons/cg';
 import { FaFlag } from 'react-icons/fa';
